@@ -27,7 +27,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo apt update
-        sudo apt install libtool-bin gperf python-docutils autopoint gettex
+        sudo apt install libtool-bin gperf python-docutils autopoint gettext
     - name: Clone source code
       run: |
         git clone --depth=1 --branch=ad https://github.com/896660689/rt-n56u.git /opt/rt-n56u
